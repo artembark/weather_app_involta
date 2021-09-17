@@ -128,7 +128,7 @@ class MainActivity : AppCompatActivity() {
         locationHelper?.stopLocationUpdates(locationCallback)
 
         val url =
-            "https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$long&units=metric&appid=fa589f525d5784b2ae38dda28ec293cf&lang=ru"
+            "https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$long&units=metric&appid=key&lang=ru"
         requestJSON(url)
     }
 
